@@ -21,16 +21,72 @@ p {
 
 }
 
+#header {
+  height: 500px;
+  border: 1px solid #000;
+  overflow:hidden;
+  z-index: 0;
+  position:relative;
+
+}
+
+#header video {
+  width: 100%;
+  position: relative;
+  top: -80px;
+}
+
+#navigation--main {
+  width: auto;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#navigation--main ul li {
+  display: inline;
+}
+
+#navigation--main ul li a {
+  padding: 5px 30px;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#navigation--main ul li a:hover {
+  background-color: #fff;
+border-radius: 5px;
+box-shadow: 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.active {
+background-color: #fff;
+border-radius: 5px;
+box-shadow: 5px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+
+
 #container--main {
   width: 1200px;
   margin: 0 auto;
 }
 
 #container--inner {
+  position: relative;
   width: 100%;
   padding: 20px;
   border-radius: 15px;
   border: 1px solid #000;
+  top: -135px;
+  margin-bottom: -100px;
+  background-color: #fff;
 }
 
 .content-module {
